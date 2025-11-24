@@ -1,0 +1,114 @@
+* {
+  background-color: #ffffff;
+  color: #0f0f0f;
+}
+nav {
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#logo {
+  background-color: rgb(255, 218, 157, 0.2);
+}
+.navLinks {
+  text-decoration: none;
+  color: #0f0f0f;
+  font-family: Poppins;
+  font-weight: bold;
+  padding: 20px 50px;
+  background-color: rgb(255, 218, 157, 0.2);
+  font-size: 1.5em;
+}
+.navLinks:hover {
+  background-color: #ffda9d;
+  transition: 0.3s;
+}
+.content {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+#heroImage {
+  width: 100%;
+}
+#heroContainer {
+  width: 100%;
+  text-align: center;
+}
+#heroText {
+  font-family: Poppins;
+}
+#heroMessage {
+  font-family: Lato;
+}
+button {
+  background-color: #7f523b;
+  color: #ffffff;
+  font-size: 1.1em;
+}
+#missionContainer {
+  width: 70%;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 80px;
+  margin: 30px auto;
+}
+#homeCard {
+  grid-column: 1/2;
+  background-color: #ffda9d;
+  text-align: center;
+  /* box-shadow: 2px 4px 12px #0f0f0f; */
+  padding: 10px;
+}
+#mission {
+  background-color: #ffda9d;
+  font-size: 1.5em;
+}
+#missionImg {
+  width: 100%;
+  /* box-shadow: 2px 4px 12px #0f0f0f; */
+}
+#projectsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+#projectText {
+  font-family: Poppins;
+  font-weight: normal;
+  grid-column: 1/4;
+}
+.projectImg {
+  width: 100%;
+  /* box-shadow: 2px 4px 12px #0f0f0f; */
+}
+#challangeContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+#challange {
+  width: 50%;
+  font-weight: normal;
+}
+#challangeButton {
+  height: 30px;
+  border-radius: 50px;
+}
+footer {
+  background-color: #7f523b;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
