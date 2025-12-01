@@ -6,11 +6,10 @@ nav {
   position: absolute;
   background-color: transparent;
   display: flex;
-  width: 80vw;
+  width: 95vw;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 10px;
 }
 #logo {
   background-color: rgb(255, 218, 157, 0.2);
@@ -21,7 +20,7 @@ nav {
   font-family: Poppins;
   font-weight: bold;
   padding: 20px 50px;
-  background-color: rgb(255, 218, 157, 0.2);
+  background-color: transparent;
   font-size: 1.5em;
 }
 .navLinks:hover {
@@ -111,4 +110,21 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+#footerText {
+  background-color: transparent;
+  color: #ffffff;
+}
+.social {
+  background-color: transparent;
+  width: 60px;
+}
+.socialImg {
+  background-color: transparent;
+  width: 60px;
+  margin: 10px;
+}
+#footerText {
+  background-color: transparent;
+  color: #ffffff;
 }
