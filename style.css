@@ -12,7 +12,7 @@ nav {
   margin: 10px;
 }
 #logo {
-  background-color: rgb(255, 218, 157, 0.2);
+  background-color: transparent;
 }
 .navLinks {
   text-decoration: none;
